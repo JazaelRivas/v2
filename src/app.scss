@@ -1,0 +1,23 @@
+/* Globals */
+@import "../src/scss/_reset.scss";
+@import "../src/scss/_globales.scss";
+@import "../src/scss/_variables.scss";
+@import "../src/scss/_variables.scss";
+
+/* Components */
+@import "../src/components/Footer/_footer.scss";
+@import "../src/components/Layout/_layout.scss";
+@import "../src/components/Navbar/_navbar.scss";
+
+
+/* Sections */
+@import "../src/sections/Section1/section1";
+@import "../src/sections/Section2/section2";
+@import "../src/sections/Section3/section3";
+@import "../src/sections/Section4/section4";
+@import "../src/sections/Section5/section5";
+
+
+
+/* Animations */
+@import "../src/sections/Section1/bouce";
