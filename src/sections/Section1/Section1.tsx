@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar"
 
+
 const Section1 = () => {
     return (
         <div className="section-1">
@@ -12,7 +13,7 @@ const Section1 = () => {
                     <h2 className="article-title">-carl sagan</h2>
                 </article>
                 <div className="section-1-navigation">
-                    <button className="section-1-link button">keep exploring</button>
+                    <a className="section-1-link button" href="#section2">keep exploring</a>
                     <img className="section-image" src={require('../../images/arrow-down.png')} alt="arrowDown" />
                 </div>
             </section>

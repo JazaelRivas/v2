@@ -4,11 +4,11 @@ const Section3 = () => {
         <div className="section-3">
             <div className="section-3-content">
                 <div className="section-3-phrase">
-                    <p>“Mistakes are also important to me. I don’t cross them out of my life, or memory. And I never blame others for them.”</p>
-                    <h2>-Geralt of Rivia</h2>
+                    <p className="section-3-p">“Mistakes are also important to me. I don’t cross them out of my life, or memory. And I never blame others for them.”</p>
+                    <h2 className="section-3-title">-Geralt of Rivia</h2>
                 </div>
                 <div className="section-3-image">
-                    <img  src={require('../../images/section3.png')} alt="arrowDown" />
+                    <img src={require('../../images/section3.png')} alt="arrowDown" />
                 </div>
             </div>
         </div>

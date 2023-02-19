@@ -45,12 +45,11 @@
     gap: 2rem;
     padding-bottom: 1rem; 
 }
-.section-1-navigation:hover{
-    .section-image{
-        -webkit-animation: bounce-top 3s both;
-	        animation: bounce-top 3s both;
-            animation-iteration-count: infinite;
-    }
+
+.section-image{
+    animation: up-down 1s ease-in-out infinite;
+    -webkit-animation: up-down 1s ease-in-out infinite;
+    position: relative;
 }
 
 .button {
